@@ -1,11 +1,14 @@
-clc;clear all;close all;
-a=input('matris khod ra vared konid ');
-[x y]=size(a);
-for ii=1:x
-    for jj=1:y
-        c(jj,ii)=a(ii,jj);
-        
+clc;clear vriables;close all;
+% ###############################################
+
+a = input('insert your matrix: ');
+[x y] = size(a);
+
+for ii = 1:x
+    for jj = 1:y
+        c(jj,ii) = a(ii,jj);
     end
 end
-disp('taranahade shoma = ');
+
+disp('Transposition is:  ');
 disp(c);

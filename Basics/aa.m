@@ -1,2 +1,0 @@
-function aa(~,~)
-disp(rand);

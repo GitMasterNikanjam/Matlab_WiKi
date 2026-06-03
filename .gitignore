@@ -1,2 +1,7 @@
 *.avi
 slprj/
+*.bin
+*.csv
+*.xlsx
+*.txt
+

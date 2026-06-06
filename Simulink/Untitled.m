@@ -1,1 +1,0 @@
-sim('avang_2d_free.mdl');
